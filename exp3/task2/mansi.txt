@@ -1,0 +1,6 @@
+42-4D-8A-80-0C-00-00-00-00-00-8A-00-00-00-7C-00-00-00-00-02-00-00-90-01-00-00-01-00-20-00-03-00-00-00-00-80-0C-00-23-2E-00-00-23-2E-00-00-00-00-00-00-00-00-00-00
+
+IMAGE : 
+openssl enc -aes-256-ecb -e -p -in img1bmp.bmp -out ecb.bmp
+
+openssl enc -aes-256-cbc -e -p -in img1bmp.bmp -out cbc.bmp
